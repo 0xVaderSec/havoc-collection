@@ -26,4 +26,4 @@ def PatchETW(demonID, *params):
     demon.ConsoleWrite(demon.CONSOLE_TASK,"Tasked demon to patch ETW") 
     demon.InlineExecute(TaskID,"go", bof_file, packer.getbuffer(), False)
 
-RegisterCommand(PatchETW, "patch-etw", "Patches Event Tracing for Windows with the given PID", 0, "<pid>", "1337")
+RegisterCommand(PatchETW, "" ,"patch-etw", "Patches Event Tracing for Windows with the given PID", 0, "<pid>", "1337")
