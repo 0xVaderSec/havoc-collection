@@ -1,7 +1,7 @@
 from havoc import Demon, RegisterCommand
 
-def PatchETW(demonID, params*):
-    TaskID str = None
+def PatchETW(demonID, *params):
+    TaskID: str = None
     demon: Demon = None
     packer = Packer()
     
