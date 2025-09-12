@@ -8,6 +8,6 @@ This was done to facilitate my learning of Havoc Scripting and was a conversion 
 Credits
 ------------
 
-- [0xEr3bus](https://github.com/0xErb3bus) for the BOF for this script.
+- [0xEr3bus](https://github.com/0xEr3bus) for the BOF for this script.
 
 - [C5pider](https://github.com/Cracked5pider) for the Havoc Framework
