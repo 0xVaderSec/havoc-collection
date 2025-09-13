@@ -19,7 +19,7 @@ def PatchETW(demonID, *params):
     packer.addstr(pid) 
 
     if demon.ProcessArch == "x86":
-        TaskID = demon.ConsoleWrite(demon.CONSOLE_ERROR, "This bof only supports x64, please use that instead")
+        bof_file = "EtwPatch.x86.o"
     else:
         bof_file = "EtwPatch.x64.o"
     
